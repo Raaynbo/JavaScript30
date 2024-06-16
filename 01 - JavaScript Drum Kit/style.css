@@ -30,6 +30,12 @@ body, html {
 	align-items:center;
 	border-radius:0.4rem;
 	text-shadow:0 0 1.4rem black;
+	transition: .05s ease-in;
+}
+
+.playing{
+	box-shadow: 0 0 1.3rem orange;
+	transform:scale(1.2);
 }
 
 .key_symbol {
